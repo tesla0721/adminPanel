@@ -36,7 +36,7 @@ form.addEventListener('submit', async (e) => {
         if (error) {
             alert(error);
         } else if (data.length === 1) {
-            window.location.replace('/pages/mainPage/');
+            window.location.replace(window.location.href + '/pages/mainPage/');
         } else {
             papitkeq++;
             if (papitkeq === 1) {
